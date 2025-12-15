@@ -1,0 +1,62 @@
+.result__content {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+}
+.result-cards {
+    display: flex;
+    justify-content: center;
+}
+.result-card {
+    margin: 0 auto;
+    width: 360px;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 15);
+}
+.result-card__img-wrapper {
+    position: relative;
+    aspect-ratio: 2 / 1;
+    overflow: hidden;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result-card__img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.result-card__body {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.result-card__city,
+.result-card__time {
+    margin: 0;
+    font-size: 18px;
+}
+.time-difference {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+    width: 800px;
+}
+.time-difference__inner {
+    background-color: rgb(122, 235, 235);
+    text-align: center;
+    padding: 10px;
+    border: thick dashed #1566e0;
+    border-radius: 3px;
+}
+.time-d {
+    font-weight: bold;
+    font-size: 20px;
+}
+.time-css {
+    color: rgb(243, 64, 64);
+    font-size: 26px;
+}
